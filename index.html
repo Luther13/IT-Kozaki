@@ -25,6 +25,9 @@
             <hr>
             <h5>AIESEC in Poland</h5>
             <p>Here you'll be able to navigate through the pages, to get to the most relevant part for you</p>
+            <a href=#!><div class="hollow button secondary">Marketing dashboard</div></a>
+            <a href=#!><div class="button">National dashboard</div></a>
+            <a href=#!><div class="button">Local dashboard</div></a>
           </div>
         </div>
  		
@@ -46,7 +49,7 @@
           </div>
           
 			
-		<!-- Overall stats -->
+		<!-- Overall stats, must be connected and re-worked with back-end data-->
             <ul class="stats-list">
 		      <li>
 		        135 <span class="stats-list-label">Applications</span>
@@ -70,7 +73,7 @@
 
 			<hr width="80%"> 
 		
-		<!-- Table of exchanges  -->
+		<!-- Table of exchanges, must be connected and re-worked with back-end data  -->
 		    <div class="row">
 		    	<div class="column large-12">
 				<table class="responsive-card-table unstriped">
@@ -127,6 +130,36 @@
 				      <td data-label="oGT">150</td>
 				      <td data-label="oGE">50</td>
 				    </tr>
+				    <tr>
+				      <td class="entity" data-label="Entity Name">Poland</td>
+				      <td class="overall" data-label="Overall">5000</td>
+				      <td data-label="iGV">3000</td>
+				      <td data-label="iGT">600</td>
+				      <td data-label="iGE">200</td>
+				      <td data-label="oGV">1000</td>
+				      <td data-label="oGT">150</td>
+				      <td data-label="oGE">50</td>
+				    </tr>
+				    <tr>
+				      <td class="entity" data-label="Entity Name">Poland</td>
+				      <td class="overall" data-label="Overall">5000</td>
+				      <td data-label="iGV">3000</td>
+				      <td data-label="iGT">600</td>
+				      <td data-label="iGE">200</td>
+				      <td data-label="oGV">1000</td>
+				      <td data-label="oGT">150</td>
+				      <td data-label="oGE">50</td>
+				    </tr>
+				    <tr>
+				      <td class="entity" data-label="Entity Name">Poland</td>
+				      <td class="overall" data-label="Overall">5000</td>
+				      <td data-label="iGV">3000</td>
+				      <td data-label="iGT">600</td>
+				      <td data-label="iGE">200</td>
+				      <td data-label="oGV">1000</td>
+				      <td data-label="oGT">150</td>
+				      <td data-label="oGE">50</td>
+				    </tr>
 				  </tbody>
 				</table>
 			    </div>
@@ -135,7 +168,9 @@
 			<hr width="80%">
 
           <div class="row">
+          	
           	<div class="medium-6 columns">
+          		<h3>NPS Score</h3>
 	            <div class="large-6 columns">
 	                <div class="circle-graph" data-circle-graph data-percent="50">
 					  <div class="circle-graph-progress">
@@ -174,20 +209,84 @@
 				</div>
 		    </div>
 
-
+	        
             <div class="medium-6 columns">
-              <label>Name
-                <input type="text" placeholder="Name">
-              </label>
-              <label>Email
-                <input type="text" placeholder="Email">
-              </label>
-              <label>
-                Message
-                <textarea placeholder="Write us a feedback!"></textarea>
-              </label>
-              <a href="mailto:ozerovsa@gmail.com?subject=Feedback
-&body=Feedback on an AIESEC platform"><input type="submit" class="button expanded" value="Submit"></a>
+            	<h3>LC Goal Completion</h3>
+               
+               <ul class="bar-graph">
+				  <li class="bar-graph-axis">
+				    <div class="bar-graph-label">100%</div>
+				    <div class="bar-graph-label">80%</div>
+				    <div class="bar-graph-label">60%</div>
+				    <div class="bar-graph-label">40%</div>
+				    <div class="bar-graph-label">20%</div>
+				    <div class="bar-graph-label">0%</div>
+				  </li>
+				  <li class="bar primary" style="height: 95%;" title="95">
+				    <div class="description">Omega</div>
+				  </li>
+				  <li class="bar primary" style="height: 95%;" title="95">
+				    <div class="description">Omega</div>
+				  </li>
+				  <li class="bar secondary" style="height: 90%;" title="90">
+				    
+				    <div class="description">Alpha</div>
+				  </li>
+				  <li class="bar secondary" style="height: 90%;" title="90">
+				    
+				    <div class="description">Alpha</div>
+				  </li>
+				  <li class="bar secondary" style="height: 90%;" title="90">
+				    
+				    <div class="description">Alpha</div>
+				  </li>
+				  <li class="bar success" style="height: 85%;" title="85">
+				    
+				    <div class="description">Bravo</div>
+				  </li>
+				  <li class="bar success" style="height: 80%;" title="80">
+				    
+				    <div class="description">Bravo</div>
+				  </li>
+				  <li class="bar success" style="height: 70%;" title="70">
+				    
+				    <div class="description">Bravo</div>
+				  </li>
+				  </li>
+				  <li class="bar success" style="height: 65%;" title="65">
+				    
+				    <div class="description">Bravo</div>
+				  </li>
+				  </li>
+				  <li class="bar success" style="height: 60%;" title="60">
+				    
+				    <div class="description">Bravo</div>
+				  </li>
+				  <li class="bar alert" style="height: 55%;" title="55">
+				    
+				    <div class="description">Delta</div>
+				  </li>
+				  <li class="bar alert" style="height: 50%;" title="50">
+				    
+				    <div class="description">Delta</div>
+				  </li>
+				  <li class="bar alert" style="height: 40%;" title="40">
+				    
+				    <div class="description">Delta</div>
+				  </li>
+				  <li class="bar alert" style="height: 30%;" title="30">
+				    
+				    <div class="description">Delta</div>
+				  </li>
+				  <li class="bar alert" style="height: 20%;" title="20">
+				    
+				    <div class="description">Delta</div>
+				  </li>
+				  <li class="bar alert" style="height: 15%;" title="15">
+				    
+				    <div class="description">Delta</div>
+				  </li>
+				</ul>
             </div>
           </div>
         </div>
