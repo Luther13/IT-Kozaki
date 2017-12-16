@@ -1,5 +1,5 @@
 from django.contrib import admin
-from AppOne.models import Local_Committee
+from
 # Register your models here.
 
 admin.site.register(Local_Committee)
