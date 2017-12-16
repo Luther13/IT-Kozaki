@@ -79,7 +79,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'baza_danych',
-        'USER': 'admin',
+        'USER': 'postgres',
         'PASSWORD': 'Copernicus1',
         'HOST': 'localhost',
         'PORT': '5432',
